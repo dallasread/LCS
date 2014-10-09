@@ -1,0 +1,20 @@
+#lcs {
+	&.agent_logged_in.adminning {
+		.admin {
+			display: block;
+		}
+	}
+	
+	.admin {
+		display: none;
+
+		.topbar {
+			z-index: 99999;
+			right: 0;
+			left: 0;
+		}
+
+		.main_tab {
+		}
+	}
+}

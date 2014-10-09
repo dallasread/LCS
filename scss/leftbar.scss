@@ -1,0 +1,49 @@
+#lcs {
+	.leftbar {
+		z-index: 99999;
+		background: red;
+		position: fixed;
+		top: $topbar_height;
+		bottom: 0;
+		left: 0;
+		width: $leftbar_width;
+		background: #fff;
+		
+		p {
+			font-size: 12px;
+			text-align: center;
+			cursor: pointer;
+			color: #aaa;
+			padding: 12px 0px;
+			border-top: 1px solid transparent;
+			border-bottom: 1px solid transparent;
+			
+			&.selected {
+				background: #eee;
+				color: #333;
+				border-color: #ccc;
+			}
+			
+			i {
+				display: block;
+				font-size: 32px;
+				line-height: 32px;
+				padding-bottom: 6px;
+			}
+			
+			&.toggle_status {
+				&.offline {
+					.fa-toggle-on, .toggle-on {
+						display: none;
+					}
+				}
+				
+				&.online {
+					.fa-toggle-off, .toggle-off {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

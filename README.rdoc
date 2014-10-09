@@ -1,0 +1,26 @@
+Flow
+
+* Sign up as owner/agent
+* Visitor Login
+* Assign visitor to agent
+* Send agent a message
+* Add Agents
+* Visitor Profile
+* Visitor Messages
+* Visitor Events
+* Receive message
+* Send message to visitor
+* Canned Messages
+* Surveys
+* Triggers (After page views, show chat)
+* My Profile Edit
+* Close Prompted Message
+* Delete History
+* Open in New Window
+* Dallas is not here, leave your email to receive a reply
+* button location to 50 or 100 px from bottom right
+* start a chat without having to enter their e-mail
+* Transfer to agent
+* Apply Tags
+* upload files
+* show archived

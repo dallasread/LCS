@@ -1,0 +1,38 @@
+#lcs {
+	.clear {
+		clear: both;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+	
+	template, .loading, .success {
+		display: none;
+	}
+	
+	.online {
+		color: $green !important;
+	}
+	
+	.offline {
+		color: $red !important;
+	}
+	
+	.force_show {
+		display: block !important;
+	}
+	
+	strong, b {
+		font-weight: bold;
+	}
+	
+	em, i {
+		font-style: oblique;
+	}
+	
+	.with_padding {
+		padding: 50px;
+		text-align: center;
+	}
+}
